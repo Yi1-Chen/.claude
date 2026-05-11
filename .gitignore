@@ -1,0 +1,120 @@
+# ============================================================
+# Agentic workflow — local-only, not shared via git
+# ============================================================
+# Entry files and commands for coding agents
+.claude/
+.codex/
+AGENT.md
+AGENTS.md
+
+# Working artifacts produced during planning / implementation / review
+plans/
+reports/
+STATUS.md
+
+# External reference materials (papers, baseline code, datasets to read)
+refs/
+
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+build/
+dist/
+*.egg-info/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# uv
+.uv/
+
+# ============================================================
+# Jupyter / IPython
+# ============================================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ============================================================
+# Research artifacts
+# ============================================================
+# Data — usually too large or under separate version control
+data/
+datasets/
+
+# Model checkpoints, weights, ONNX/safetensors files
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+*.onnx
+*.bin
+
+# Experiment tracking
+wandb/
+mlruns/
+runs/
+lightning_logs/
+tb_logs/
+tensorboard/
+outputs/
+
+# Logs
+*.log
+logs/
+
+# ============================================================
+# Secrets and environment
+# ============================================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# ============================================================
+# Editor and OS
+# ============================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================================
+# Misc
+# ============================================================
+*.tmp
+*.bak
+.scratch/
+scratch/
+
+# ============================================================
+# LaTeX build artifacts
+# ============================================================
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.synctex.gz
+*.toc
+*.out
